@@ -1,0 +1,1364 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>AutoTuki Oy | Autokorjaamo Roihupelto, Helsinki</title>
+    <meta
+      name="description"
+      content="Merkkiriippumaton autokorjaamo Helsingin Roihupellossa. Huollot, korjaukset, katsastus ja renkaat selkeällä hinnalla. Tulppatie 22."
+    />
+    <meta
+      name="keywords"
+      content="autokorjaamo Helsinki, autokorjaamo Roihupelto, katsastus Helsinki, auton huolto, AutoTuki Oy"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#0E1726" />
+    <meta name="format-detection" content="telephone=yes" />
+    <link rel="canonical" href="https://autotuki.fi/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fi_FI" />
+    <meta property="og:site_name" content="AutoTuki Oy" />
+    <meta property="og:url" content="https://autotuki.fi/" />
+    <meta property="og:title" content="AutoTuki Oy | Autokorjaamo Roihupelto, Helsinki" />
+    <meta
+      property="og:description"
+      content="Merkkiriippumaton autokorjaamo Helsingin Roihupellossa. Huollot, korjaukset, katsastus ja renkaat selkeällä hinnalla. Tulppatie 22."
+    />
+    <meta
+      property="og:image"
+      content="https://images.unsplash.com/photo-1625047509248-ec889cbff17f?auto=format&fit=crop&w=1200&q=80"
+    />
+    <meta property="og:image:alt" content="Mekaanikko huoltaa autoa avatun konepellin alla" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="AutoTuki Oy | Autokorjaamo Roihupelto, Helsinki" />
+    <meta
+      name="twitter:description"
+      content="Merkkiriippumaton autokorjaamo Helsingin Roihupellossa. Huollot, korjaukset, katsastus ja renkaat selkeällä hinnalla. Tulppatie 22."
+    />
+    <meta
+      name="twitter:image"
+      content="https://images.unsplash.com/photo-1625047509248-ec889cbff17f?auto=format&fit=crop&w=1200&q=80"
+    />
+
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230E1726'/%3E%3Ctext x='16' y='21.5' text-anchor='middle' font-family='Arial,sans-serif' font-size='13' font-weight='700' fill='%23F5A524'%3EAT%3C/text%3E%3C/svg%3E"
+      type="image/svg+xml"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230E1726'/%3E%3Ctext x='16' y='21.5' text-anchor='middle' font-family='Arial,sans-serif' font-size='13' font-weight='700' fill='%23F5A524'%3EAT%3C/text%3E%3C/svg%3E"
+    />
+    <script id="schema-ld" type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "AutoRepair",
+        "name": "AutoTuki Oy",
+        "legalName": "AutoTuki Oy",
+        "taxID": "3662266-1",
+        "url": "https://autotuki.fi/",
+        "telephone": "+358400000000",
+        "email": "info@autotuki.fi",
+        "image": "https://images.unsplash.com/photo-1625047509248-ec889cbff17f?auto=format&fit=crop&w=1200&q=80",
+        "description": "Merkkiriippumaton autokorjaamo Helsingin Roihupellossa. Huollot, korjaukset, katsastuspalvelut ja renkaat.",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Tulppatie 22",
+          "postalCode": "00880",
+          "addressLocality": "Helsinki",
+          "addressCountry": "FI"
+        },
+        "geo": { "@type": "GeoCoordinates", "latitude": 60.2119695, "longitude": 25.0499976 },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "08:00",
+            "closes": "17:00"
+          }
+        ],
+        "areaServed": { "@type": "City", "name": "Helsinki" },
+        "priceRange": "€€"
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              ink: "#0E1726",
+              steel: "#1F2A3A",
+              signal: "#F5A524",
+              "signal-dark": "#C77F0A",
+              paper: "#F6F7F9",
+              muted: "#5B6575",
+            },
+            fontFamily: {
+              sans: ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
+              display: ["Space Grotesk", "Inter", "ui-sans-serif", "sans-serif"],
+            },
+            boxShadow: {
+              soft: "0 18px 50px -24px rgba(14, 23, 38, 0.45)",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      :focus-visible {
+        outline: 2px solid #f5a524;
+        outline-offset: 3px;
+      }
+      ::selection {
+        background: #f5a524;
+        color: #0e1726;
+      }
+      section[id] {
+        scroll-margin-top: 6.75rem;
+      }
+      #nav-bar {
+        transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+      }
+      #site-header.is-scrolled #nav-bar {
+        background: rgba(246, 247, 249, 0.94);
+        border-bottom-color: rgba(14, 23, 38, 0.08);
+        box-shadow: 0 10px 30px -24px rgba(14, 23, 38, 0.8);
+        backdrop-filter: saturate(140%) blur(16px);
+      }
+      .logo-rest,
+      .nav-link,
+      .menu-btn {
+        color: #fff;
+      }
+      .logo-accent {
+        color: #f5a524;
+      }
+      #site-header.is-scrolled .logo-rest,
+      #site-header.is-scrolled .nav-link,
+      #site-header.is-scrolled .menu-btn {
+        color: #0e1726;
+      }
+      #site-header.is-scrolled .logo-accent {
+        color: #c77f0a;
+      }
+      .nav-link {
+        position: relative;
+      }
+      .nav-link:hover {
+        color: #f5a524;
+      }
+      #site-header.is-scrolled .nav-link:hover {
+        color: #c77f0a;
+      }
+      .reveal {
+        opacity: 0;
+        transform: translateY(18px);
+        transition: opacity 0.6s ease, transform 0.6s ease;
+      }
+      .reveal.is-in {
+        opacity: 1;
+        transform: none;
+      }
+      dialog {
+        width: min(36rem, calc(100% - 2rem));
+        border: 0;
+        border-radius: 1rem;
+        padding: 1.5rem;
+      }
+      dialog::backdrop {
+        background: rgba(14, 23, 38, 0.55);
+      }
+      .service-card {
+        transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+      }
+      .service-card:hover {
+        transform: translateY(-2px);
+        border-color: rgba(245, 165, 36, 0.7);
+        box-shadow: 0 18px 40px -28px rgba(14, 23, 38, 0.7);
+      }
+      input:user-invalid,
+      textarea:user-invalid,
+      select:user-invalid {
+        border-color: #b42318;
+      }
+      .marquee {
+        overflow: hidden;
+      }
+      .marquee-track {
+        display: flex;
+        width: max-content;
+        animation: marquee 42s linear infinite;
+      }
+      .marquee:hover .marquee-track,
+      .marquee:focus-within .marquee-track {
+        animation-play-state: paused;
+      }
+      @keyframes marquee {
+        from {
+          transform: translateX(0);
+        }
+        to {
+          transform: translateX(-50%);
+        }
+      }
+      @media (max-width: 767px) {
+        body {
+          padding-bottom: calc(4.75rem + env(safe-area-inset-bottom));
+        }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .reveal,
+        .reveal.is-in,
+        .service-card,
+        .service-card:hover {
+          opacity: 1;
+          transform: none;
+          transition: none;
+        }
+        .marquee-track {
+          animation: none;
+          flex-wrap: wrap;
+          width: auto;
+          max-width: 1200px;
+          margin-inline: auto;
+          justify-content: center;
+          row-gap: 0.75rem;
+        }
+        html {
+          scroll-behavior: auto;
+        }
+      }
+    </style>
+  </head>
+  <body id="top" class="bg-white font-sans text-ink antialiased">
+    <a
+      href="#sisalto"
+      class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-[60] focus:rounded-full focus:bg-signal focus:px-4 focus:py-2 focus:text-ink"
+      >Siirry sisältöön</a
+    >
+
+    <header id="site-header" class="fixed inset-x-0 top-0 z-50">
+      <div class="bg-ink text-sm text-white/80">
+        <div class="mx-auto flex max-w-[1200px] items-center justify-between gap-4 px-5 py-2">
+          <p class="truncate">Merkkiriippumaton autokorjaamo · Tulppatie 22, Helsinki</p>
+          <a data-phone-href data-phone-text href="tel:+358400000000" class="shrink-0 font-semibold text-white hover:text-signal">040 000 0000</a>
+        </div>
+      </div>
+      <div id="nav-bar" class="border-b border-transparent">
+        <div class="mx-auto flex h-16 max-w-[1200px] items-center justify-between gap-4 px-5">
+          <a href="#top" class="inline-flex items-center gap-2 font-display text-xl font-semibold tracking-tight">
+            <svg viewBox="0 0 24 24" class="h-6 w-6 text-signal" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+            </svg>
+            <span><span class="logo-rest">Auto</span><span class="logo-accent">Tuki</span></span>
+          </a>
+
+          <nav class="hidden items-center gap-7 md:flex" aria-label="Päävalikko">
+            <a class="nav-link text-sm font-medium" href="#palvelut">Palvelut ja hinnasto</a>
+            <a class="nav-link text-sm font-medium" href="#meista">Meistä</a>
+            <a class="nav-link text-sm font-medium" href="#yhteys">Yhteys</a>
+          </nav>
+
+          <div class="flex items-center gap-2">
+            <a
+              href="#yhteys"
+              class="inline-flex min-h-11 items-center rounded-full bg-signal px-4 text-sm font-semibold text-ink hover:bg-[#e09612]"
+              >Varaa aika</a
+            >
+            <button
+              id="menu-btn"
+              class="menu-btn inline-flex h-11 w-11 items-center justify-center rounded-full md:hidden"
+              type="button"
+              aria-label="Avaa valikko"
+              aria-expanded="false"
+              aria-controls="mobile-nav"
+            >
+              <svg viewBox="0 0 24 24" class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+                <path class="menu-icon-open" d="M4 7h16M4 17h16" />
+                <path class="menu-icon-close hidden" d="M6 6l12 12M18 6L6 18" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div id="mobile-nav" class="hidden border-t border-ink/10 bg-paper md:hidden" hidden>
+          <nav class="mx-auto flex max-w-[1200px] flex-col gap-1 px-5 py-4" aria-label="Mobiilivalikko">
+            <a class="rounded-xl px-3 py-3 text-base font-medium hover:bg-white" href="#palvelut">Palvelut ja hinnasto</a>
+            <a class="rounded-xl px-3 py-3 text-base font-medium hover:bg-white" href="#meista">Meistä</a>
+            <a class="rounded-xl px-3 py-3 text-base font-medium hover:bg-white" href="#yhteys">Yhteys</a>
+            <a class="mt-2 inline-flex min-h-12 items-center justify-center rounded-full bg-signal font-semibold text-ink" href="#yhteys">Varaa aika</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main id="sisalto">
+      <section class="hero relative isolate flex min-h-[100svh] items-end overflow-hidden bg-ink text-white">
+        <div class="absolute inset-0 -z-10">
+          <!-- VAIHDA: asiakkaan oma kuva -->
+          <img
+            src="https://images.unsplash.com/photo-1625047509248-ec889cbff17f?auto=format&fit=crop&w=2000&q=80"
+            alt="Mekaanikko huoltaa autoa avatun konepellin alla"
+            class="hero-img h-full w-full object-cover"
+            width="2000"
+            height="1333"
+            fetchpriority="high"
+            decoding="async"
+          />
+          <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/82 to-ink/45"></div>
+        </div>
+
+        <div class="mx-auto grid w-full max-w-[1200px] gap-10 px-5 pb-28 pt-36 sm:pt-40 md:pb-16 lg:grid-cols-[1.35fr_0.75fr] lg:items-end lg:pb-20">
+          <div>
+            <p class="text-sm font-semibold uppercase tracking-[0.18em] text-signal">Autokorjaamo Roihupellossa, Helsingissä</p>
+            <h1 class="mt-4 max-w-3xl font-display text-[clamp(2.15rem,6vw,4.6rem)] font-semibold leading-[1.02] tracking-tight">
+              Auton huollot ja korjaukset selkeällä hinnalla.
+            </h1>
+            <p class="mt-6 max-w-xl text-lg leading-relaxed text-white/80">
+              Huollamme ja korjaamme kaikki automerkit valmistajan ohjeiden mukaan, ympäristöä ja viranomaismääräyksiä kunnioittaen.
+            </p>
+            <div class="mt-8 flex flex-row flex-wrap gap-3">
+              <a href="#yhteys" class="inline-flex min-h-12 flex-1 items-center justify-center rounded-full bg-signal px-6 font-semibold text-ink hover:bg-[#e09612] sm:flex-none">Varaa aika</a>
+              <a data-phone-href href="tel:+358400000000" class="inline-flex min-h-12 flex-1 items-center justify-center rounded-full border border-white/35 px-6 font-semibold text-white hover:bg-white/10 sm:flex-none">Soita</a>
+              <a data-sms-href href="sms:+358400000000?body=Hei%20AutoTuki%2C%20tarvitsen%20apua%20auton%20kanssa." class="hidden min-h-12 items-center justify-center rounded-full border border-white/35 px-6 font-semibold text-white hover:bg-white/10 md:inline-flex">Lähetä tekstiviesti</a>
+            </div>
+            <p class="mt-5 text-sm font-medium text-white/75 lg:hidden">Kaikki automerkit · Selkeä hinnasto · Katsastuspalvelut</p>
+          </div>
+
+          <ul class="hidden gap-3 lg:grid" aria-label="Lupaukset">
+            <li class="rounded-2xl bg-steel/85 p-4 ring-1 ring-white/10 backdrop-blur">
+              <p class="font-display text-lg font-semibold">Kaikki automerkit</p>
+              <p class="mt-1 text-sm text-white/70">Merkistä riippumaton korjaamo arjen autoista erikoisempiin malleihin.</p>
+            </li>
+            <li class="rounded-2xl bg-steel/85 p-4 ring-1 ring-white/10 backdrop-blur">
+              <p class="font-display text-lg font-semibold">Selkeä hinnasto</p>
+              <p class="mt-1 text-sm text-white/70">Näet suuntaa antavat hinnat heti. Lopullinen hinta sovitaan ennen työtä.</p>
+            </li>
+            <li class="rounded-2xl bg-steel/85 p-4 ring-1 ring-white/10 backdrop-blur">
+              <p class="font-display text-lg font-semibold">Katsastuspalvelut</p>
+              <p class="mt-1 text-sm text-white/70">Tarkastus, huolto ja korjaukset katsastusta varten.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="bg-white py-20 md:py-28" id="palvelut">
+        <div class="mx-auto max-w-[1200px] px-5">
+          <header class="reveal max-w-2xl">
+            <p class="text-sm font-semibold uppercase tracking-[0.16em] text-muted">Palvelut ja hinnasto</p>
+            <h2 class="mt-3 font-display text-[clamp(1.8rem,4vw,3.25rem)] font-semibold leading-tight tracking-tight">
+              Kaikki mitä auto tarvitsee yhdeltä luukulta.
+            </h2>
+            <p class="mt-4 text-lg text-muted">Merkkiriippumatonta korjaamo-osaamista. Valitse palvelu ja jatka ajanvaraukseen.</p>
+          </header>
+
+          <div class="reveal mt-8">
+            <label class="block" for="service-search">
+              <span class="sr-only">Hae palvelua</span>
+              <span class="relative block">
+                <svg viewBox="0 0 24 24" class="pointer-events-none absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-muted" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+                  <circle cx="11" cy="11" r="7" />
+                  <path d="M20 20l-3.5-3.5" />
+                </svg>
+                <input
+                  id="service-search"
+                  type="search"
+                  placeholder="Hae palvelua…"
+                  autocomplete="off"
+                  aria-controls="services-list"
+                  class="w-full rounded-2xl border border-ink/10 bg-paper py-4 pl-12 pr-4 text-base outline-none ring-signal focus:ring-2"
+                />
+              </span>
+            </label>
+            <p id="services-count" class="mt-4 text-sm text-muted" aria-live="polite">29 palvelua</p>
+          </div>
+
+          <div id="services-list" class="mt-8 grid items-start gap-4 md:grid-cols-2">
+            <section class="rounded-2xl bg-paper p-3 sm:p-4">
+              <h3 class="px-3 pt-2 font-display text-lg font-semibold">Huolto</h3>
+              <ul class="mt-1 divide-y divide-ink/10">
+                <li>
+                  <button type="button" class="grid w-full grid-cols-[minmax(0,1fr)_auto] items-baseline gap-x-4 rounded-xl px-3 py-3 text-left hover:bg-white" aria-label="Varaa palvelu: Huolto, Alk. 149 €">
+                    <span class="font-medium">Huolto</span>
+                    <span class="font-semibold tabular-nums text-ink">Alk. 149 €</span>
+                  </button>
+                </li>
+                <li>
+                  <button type="button" class="grid w-full grid-cols-[minmax(0,1fr)_auto] items-baseline gap-x-4 rounded-xl px-3 py-3 text-left hover:bg-white" aria-label="Varaa palvelu: Ilmastointi, Alk. 89 €">
+                    <span class="font-medium">Ilmastointi</span>
+                    <span class="font-semibold tabular-nums text-ink">Alk. 89 €</span>
+                  </button>
+                </li>
+                <li>
+                  <button type="button" class="grid w-full grid-cols-[minmax(0,1fr)_auto] items-baseline gap-x-4 rounded-xl px-3 py-3 text-left hover:bg-white" aria-label="Varaa palvelu: Jakohihna, Alk. 390 €">
+                    <span class="font-medium">Jakohihna</span>
+                    <span class="font-semibold tabular-nums text-ink">Alk. 390 €</span>
+                  </button>
+                </li>
+                <li>
+                  <button type="button" class="grid w-full grid-cols-[minmax(0,1fr)_auto] items-baseline gap-x-4 rounded-xl px-3 py-3 text-left hover:bg-white" aria-label="Varaa palvelu: Kytkin, Alk. 650 €">
+                    <span class="font-medium">Kytkin</span>
+                    <span class="font-semibold tabular-nums text-ink">Alk. 650 €</span>
+                  </button>
+                </li>
+                <li>
+                  <button type="button" class="grid w-full grid-cols-[minmax(0,1fr)_auto] items-baseline gap-x-4 rounded-xl px-3 py-3 text-left hover:bg-white" aria-label="Varaa palvelu: Moottori, Pyydä tarjous">
+                    <span class="font-medium">Moottori</span>
+                    <span class="text-sm font-medium text-muted">Pyydä tarjous</span>
+                  </button>
+                </li>
+                <li>
+                  <button type="button" class="grid w-full grid-cols-[minmax(0,1fr)_auto] items-baseline gap-x-4 rounded-xl px-3 py-3 text-left hover:bg-white" aria-label="Varaa palvelu: Öljynvaihto, Alk. 69 €">
+                    <span class="font-medium">Öljynvaihto</span>
+                    <span class="font-semibold tabular-nums text-ink">Alk. 69 €</span>
+                  </button>
+                </li>
+              </ul>
+            </section>
+            <section class="rounded-2xl bg-paper p-3 sm:p-4">
+              <h3 class="px-3 pt-2 font-display text-lg font-semibold">Jarrut ja alusta</h3>
+              <ul class="mt-1 divide-y divide-ink/10">
+                <li>
+                  <button type="button" class="grid w-full grid-cols-[minmax(0,1fr)_auto] items-baseline gap-x-4 rounded-xl px-3 py-3 text-left hover:bg-white" aria-label="Varaa palvelu: Etujarrut, Pyydä tarjous">
+                    <span class="font-medium">Etujarrut</span>
+                    <span class="text-sm font-medium text-muted">Pyydä tarjous</span>
+                  </button>
+                </li>
+                <li>
+                  <button type="button" class="grid w-full grid-cols-[minmax(0,1fr)_auto] items-baseline gap-x-4 rounded-xl px-3 py-3 text-left hover:bg-white" aria-label="Varaa palvelu: Takajarrut, Pyydä tarjous">
+                    <span class="font-medium">Takajarrut</span>
+                    <span class="text-sm font-medium text-muted">Pyydä tarjous</span>
+                  </button>
+                </li>
+                <li>
+                  <button type="button" class="grid w-full grid-cols-[minmax(0,1fr)_auto] items-baseline gap-x-4 rounded-xl px-3 py-3 text-left hover:bg-white" aria-label="Varaa palvelu: Jousitus ja iskunvaimentimet, Alk. 220 €">
+                    <span class="font-medium">Jousitus ja iskunvaimentimet</span>
+                    <span class="font-semibold tabular-nums text-ink">Alk. 220 €</span>
+                  </button>
+                </li>
+                <li>
+                  <button type="button" class="grid w-full grid-cols-[minmax(0,1fr)_auto] items-baseline gap-x-4 rounded-xl px-3 py-3 text-left hover:bg-white" aria-label="Varaa palvelu: Laakerit ja akselisto, Alk. 190 €">
+                    <span class="font-medium">Laakerit ja akselisto</span>
+                    <span class="font-semibold tabular-nums text-ink">Alk. 190 €</span>
+                  </button>
+                </li>
+                <li>
+                  <button type="button" class="grid w-full grid-cols-[minmax(0,1fr)_auto] items-baseline gap-x-4 rounded-xl px-3 py-3 text-left hover:bg-white" aria-label="Varaa palvelu: Ohjaus, Alk. 150 €">
+                    <span class="font-medium">Ohjaus</span>
+                    <span class="font-semibold tabular-nums text-ink">Alk. 150 €</span>
+                  </button>
+                </li>
+                <li>
+                  <button type="button" class="grid w-full grid-cols-[minmax(0,1fr)_auto] items-baseline gap-x-4 rounded-xl px-3 py-3 text-left hover:bg-white" aria-label="Varaa palvelu: Pakoputkisto, Alk. 120 €">
+                    <span class="font-medium">Pakoputkisto</span>
+                    <span class="font-semibold tabular-nums text-ink">Alk. 120 €</span>
+                  </button>
+                </li>
+              </ul>
+            </section>
+            <section class="rounded-2xl bg-paper p-3 sm:p-4">
+              <h3 class="px-3 pt-2 font-display text-lg font-semibold">Katsastus</h3>
+              <ul class="mt-1 divide-y divide-ink/10">
+                <li>
+                  <button type="button" class="grid w-full grid-cols-[minmax(0,1fr)_auto] items-baseline gap-x-4 rounded-xl px-3 py-3 text-left hover:bg-white" aria-label="Varaa palvelu: Katsastustarkastus, Alk. 60 €">
+                    <span class="font-medium">Katsastustarkastus</span>
+                    <span class="font-semibold tabular-nums text-ink">Alk. 60 €</span>
+                  <span class="col-span-2 mt-1 text-sm font-normal text-muted">Ei sisällä katsastukseen vientiä</span>
+                  </button>
+                </li>
+                <li>
+                  <button type="button" class="grid w-full grid-cols-[minmax(0,1fr)_auto] items-baseline gap-x-4 rounded-xl px-3 py-3 text-left hover:bg-white" aria-label="Varaa palvelu: Katsastushuolto, Alk. 90 €">
+                    <span class="font-medium">Katsastushuolto</span>
+                    <span class="font-semibold tabular-nums text-ink">Alk. 90 €</span>
+                  <span class="col-span-2 mt-1 text-sm font-normal text-muted">Katsastukseen vienti ja tuonti 130 €</span>
+                  </button>
+                </li>
+                <li>
+                  <button type="button" class="grid w-full grid-cols-[minmax(0,1fr)_auto] items-baseline gap-x-4 rounded-xl px-3 py-3 text-left hover:bg-white" aria-label="Varaa palvelu: Katsastuskorjaus, Pyydä tarjous">
+                    <span class="font-medium">Katsastuskorjaus</span>
+                    <span class="text-sm font-medium text-muted">Pyydä tarjous</span>
+                  </button>
+                </li>
+              </ul>
+            </section>
+            <section class="rounded-2xl bg-paper p-3 sm:p-4">
+              <h3 class="px-3 pt-2 font-display text-lg font-semibold">Renkaat</h3>
+              <ul class="mt-1 divide-y divide-ink/10">
+                <li>
+                  <button type="button" class="grid w-full grid-cols-[minmax(0,1fr)_auto] items-baseline gap-x-4 rounded-xl px-3 py-3 text-left hover:bg-white" aria-label="Varaa palvelu: Renkaat, Alk. 25 € / kpl">
+                    <span class="font-medium">Renkaat</span>
+                    <span class="font-semibold tabular-nums text-ink">Alk. 25 € / kpl</span>
+                  </button>
+                </li>
+                <li>
+                  <button type="button" class="grid w-full grid-cols-[minmax(0,1fr)_auto] items-baseline gap-x-4 rounded-xl px-3 py-3 text-left hover:bg-white" aria-label="Varaa palvelu: Renkaiden vaihto, Alk. 35 €">
+                    <span class="font-medium">Renkaiden vaihto</span>
+                    <span class="font-semibold tabular-nums text-ink">Alk. 35 €</span>
+                  </button>
+                </li>
+              </ul>
+            </section>
+            <section class="rounded-2xl bg-paper p-3 sm:p-4">
+              <h3 class="px-3 pt-2 font-display text-lg font-semibold">Sähkö ja diagnostiikka</h3>
+              <ul class="mt-1 divide-y divide-ink/10">
+                <li>
+                  <button type="button" class="grid w-full grid-cols-[minmax(0,1fr)_auto] items-baseline gap-x-4 rounded-xl px-3 py-3 text-left hover:bg-white" aria-label="Varaa palvelu: Akku, Alk. 120 €">
+                    <span class="font-medium">Akku</span>
+                    <span class="font-semibold tabular-nums text-ink">Alk. 120 €</span>
+                  </button>
+                </li>
+                <li>
+                  <button type="button" class="grid w-full grid-cols-[minmax(0,1fr)_auto] items-baseline gap-x-4 rounded-xl px-3 py-3 text-left hover:bg-white" aria-label="Varaa palvelu: Lohkolämmitin, Alk. 180 €">
+                    <span class="font-medium">Lohkolämmitin</span>
+                    <span class="font-semibold tabular-nums text-ink">Alk. 180 €</span>
+                  </button>
+                </li>
+                <li>
+                  <button type="button" class="grid w-full grid-cols-[minmax(0,1fr)_auto] items-baseline gap-x-4 rounded-xl px-3 py-3 text-left hover:bg-white" aria-label="Varaa palvelu: Sähkötyöt, Alk. 95 €">
+                    <span class="font-medium">Sähkötyöt</span>
+                    <span class="font-semibold tabular-nums text-ink">Alk. 95 €</span>
+                  </button>
+                </li>
+                <li>
+                  <button type="button" class="grid w-full grid-cols-[minmax(0,1fr)_auto] items-baseline gap-x-4 rounded-xl px-3 py-3 text-left hover:bg-white" aria-label="Varaa palvelu: Valot, Alk. 45 €">
+                    <span class="font-medium">Valot</span>
+                    <span class="font-semibold tabular-nums text-ink">Alk. 45 €</span>
+                  </button>
+                </li>
+                <li>
+                  <button type="button" class="grid w-full grid-cols-[minmax(0,1fr)_auto] items-baseline gap-x-4 rounded-xl px-3 py-3 text-left hover:bg-white" aria-label="Varaa palvelu: Vianhaku, Alk. 79 €">
+                    <span class="font-medium">Vianhaku</span>
+                    <span class="font-semibold tabular-nums text-ink">Alk. 79 €</span>
+                  </button>
+                </li>
+                <li>
+                  <button type="button" class="grid w-full grid-cols-[minmax(0,1fr)_auto] items-baseline gap-x-4 rounded-xl px-3 py-3 text-left hover:bg-white" aria-label="Varaa palvelu: Vikakoodien luku, Alk. 39 €">
+                    <span class="font-medium">Vikakoodien luku</span>
+                    <span class="font-semibold tabular-nums text-ink">Alk. 39 €</span>
+                  </button>
+                </li>
+              </ul>
+            </section>
+            <section class="rounded-2xl bg-paper p-3 sm:p-4">
+              <h3 class="px-3 pt-2 font-display text-lg font-semibold">Kori ja muut</h3>
+              <ul class="mt-1 divide-y divide-ink/10">
+                <li>
+                  <button type="button" class="grid w-full grid-cols-[minmax(0,1fr)_auto] items-baseline gap-x-4 rounded-xl px-3 py-3 text-left hover:bg-white" aria-label="Varaa palvelu: Hinauspalvelu, Pyydä tarjous">
+                    <span class="font-medium">Hinauspalvelu</span>
+                    <span class="text-sm font-medium text-muted">Pyydä tarjous</span>
+                  </button>
+                </li>
+                <li>
+                  <button type="button" class="grid w-full grid-cols-[minmax(0,1fr)_auto] items-baseline gap-x-4 rounded-xl px-3 py-3 text-left hover:bg-white" aria-label="Varaa palvelu: Kori- ja vauriokorjaus, Pyydä tarjous">
+                    <span class="font-medium">Kori- ja vauriokorjaus</span>
+                    <span class="text-sm font-medium text-muted">Pyydä tarjous</span>
+                  </button>
+                </li>
+                <li>
+                  <button type="button" class="grid w-full grid-cols-[minmax(0,1fr)_auto] items-baseline gap-x-4 rounded-xl px-3 py-3 text-left hover:bg-white" aria-label="Varaa palvelu: Lisävarusteet, Sopimuksen mukaan">
+                    <span class="font-medium">Lisävarusteet</span>
+                    <span class="text-sm font-medium text-muted">Sopimuksen mukaan</span>
+                  </button>
+                </li>
+                <li>
+                  <button type="button" class="grid w-full grid-cols-[minmax(0,1fr)_auto] items-baseline gap-x-4 rounded-xl px-3 py-3 text-left hover:bg-white" aria-label="Varaa palvelu: Muu työ, Sopimuksen mukaan">
+                    <span class="font-medium">Muu työ</span>
+                    <span class="text-sm font-medium text-muted">Sopimuksen mukaan</span>
+                  </button>
+                </li>
+                <li>
+                  <button type="button" class="grid w-full grid-cols-[minmax(0,1fr)_auto] items-baseline gap-x-4 rounded-xl px-3 py-3 text-left hover:bg-white" aria-label="Varaa palvelu: Ruostekorjaus, Pyydä tarjous">
+                    <span class="font-medium">Ruostekorjaus</span>
+                    <span class="text-sm font-medium text-muted">Pyydä tarjous</span>
+                  </button>
+                </li>
+                <li>
+                  <button type="button" class="grid w-full grid-cols-[minmax(0,1fr)_auto] items-baseline gap-x-4 rounded-xl px-3 py-3 text-left hover:bg-white" aria-label="Varaa palvelu: Ruostesuojaus, Alk. 290 €">
+                    <span class="font-medium">Ruostesuojaus</span>
+                    <span class="font-semibold tabular-nums text-ink">Alk. 290 €</span>
+                  </button>
+                </li>
+              </ul>
+            </section>
+          </div>
+
+          <!-- VAHVISTA: sisältääkö ALV:n -->
+          <p class="mt-8 max-w-3xl text-sm text-muted">
+            Hinnat ovat suuntaa antavia ja sisältävät arvonlisäveron. Lopullinen hinta sovitaan työn mukaan ennen aloitusta.
+          </p>
+        </div>
+      </section>
+
+      <section class="bg-paper py-20 md:py-28" id="asiointi">
+        <div class="mx-auto max-w-[1200px] px-5">
+          <header class="reveal max-w-2xl">
+            <p class="text-sm font-semibold uppercase tracking-[0.16em] text-muted">Asiointi</p>
+            <h2 class="mt-3 font-display text-[clamp(1.8rem,4vw,3.25rem)] font-semibold leading-tight tracking-tight">Näin asiointi etenee.</h2>
+          </header>
+          <ol class="reveal mt-10 grid gap-4 md:grid-cols-3">
+            <li class="rounded-2xl bg-white p-6">
+              <p class="font-display text-3xl font-semibold text-ink/25">1</p>
+              <h3 class="mt-3 font-display text-xl font-semibold">Varaa aika tai soita</h3>
+              <p class="mt-2 text-muted">Kerro auton merkki, malli ja mitä tarvitset.</p>
+            </li>
+            <li class="rounded-2xl bg-white p-6">
+              <p class="font-display text-3xl font-semibold text-ink/25">2</p>
+              <h3 class="mt-3 font-display text-xl font-semibold">Saat hinta-arvion ennen työtä</h3>
+              <p class="mt-2 text-muted">Lopullinen hinta sovitaan ennen kuin työ alkaa.</p>
+            </li>
+            <li class="rounded-2xl bg-white p-6">
+              <p class="font-display text-3xl font-semibold text-ink/25">3</p>
+              <h3 class="mt-3 font-display text-xl font-semibold">Nouda auto valmiina</h3>
+              <p class="mt-2 text-muted">Ilmoitamme, kun auto on noudettavissa.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="overflow-hidden bg-paper py-20 md:py-28" id="merkit" aria-labelledby="merkit-otsikko">
+        <div class="mx-auto max-w-[1200px] px-5">
+          <header class="reveal max-w-2xl">
+            <p class="text-sm font-semibold uppercase tracking-[0.16em] text-muted">Automerkit</p>
+            <h2 id="merkit-otsikko" class="mt-3 font-display text-[clamp(1.8rem,4vw,3.25rem)] font-semibold leading-tight tracking-tight">
+              Huollamme kaikki automerkit.
+            </h2>
+            <p class="mt-4 text-lg text-muted">Arjen liikkujista erikoisempiin malleihin, samalla huolellisuudella.</p>
+          </header>
+        </div>
+        <div class="marquee mt-10" aria-label="Automerkkejä joita huollamme">
+          <div id="brand-marquee" class="marquee-track">
+            <ul class="flex items-center">
+              <li class="px-5 font-display text-2xl font-semibold tracking-tight text-ink/80 sm:text-3xl">Toyota</li>
+              <li class="px-5 font-display text-2xl font-semibold tracking-tight text-ink/80 sm:text-3xl">Volkswagen</li>
+              <li class="px-5 font-display text-2xl font-semibold tracking-tight text-ink/80 sm:text-3xl">Skoda</li>
+              <li class="px-5 font-display text-2xl font-semibold tracking-tight text-ink/80 sm:text-3xl">Volvo</li>
+              <li class="px-5 font-display text-2xl font-semibold tracking-tight text-ink/80 sm:text-3xl">BMW</li>
+              <li class="px-5 font-display text-2xl font-semibold tracking-tight text-ink/80 sm:text-3xl">Mercedes-Benz</li>
+              <li class="px-5 font-display text-2xl font-semibold tracking-tight text-ink/80 sm:text-3xl">Audi</li>
+              <li class="px-5 font-display text-2xl font-semibold tracking-tight text-ink/80 sm:text-3xl">Ford</li>
+              <li class="px-5 font-display text-2xl font-semibold tracking-tight text-ink/80 sm:text-3xl">Opel</li>
+              <li class="px-5 font-display text-2xl font-semibold tracking-tight text-ink/80 sm:text-3xl">Peugeot</li>
+              <li class="px-5 font-display text-2xl font-semibold tracking-tight text-ink/80 sm:text-3xl">Citroën</li>
+              <li class="px-5 font-display text-2xl font-semibold tracking-tight text-ink/80 sm:text-3xl">Renault</li>
+              <li class="px-5 font-display text-2xl font-semibold tracking-tight text-ink/80 sm:text-3xl">Kia</li>
+              <li class="px-5 font-display text-2xl font-semibold tracking-tight text-ink/80 sm:text-3xl">Hyundai</li>
+              <li class="px-5 font-display text-2xl font-semibold tracking-tight text-ink/80 sm:text-3xl">Nissan</li>
+              <li class="px-5 font-display text-2xl font-semibold tracking-tight text-ink/80 sm:text-3xl">Mazda</li>
+              <li class="px-5 font-display text-2xl font-semibold tracking-tight text-ink/80 sm:text-3xl">Honda</li>
+              <li class="px-5 font-display text-2xl font-semibold tracking-tight text-ink/80 sm:text-3xl">Seat</li>
+              <li class="px-5 font-display text-2xl font-semibold tracking-tight text-ink/80 sm:text-3xl">Tesla</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-white py-20 md:py-28" id="meista">
+        <div class="mx-auto grid max-w-[1200px] items-center gap-10 px-5 lg:grid-cols-[1.1fr_0.9fr]">
+          <div>
+            <header class="reveal">
+              <p class="text-sm font-semibold uppercase tracking-[0.16em] text-muted">Meistä</p>
+              <h2 class="mt-3 font-display text-[clamp(1.8rem,4vw,3.25rem)] font-semibold leading-tight tracking-tight">
+                Pieni korjaamo.<br />Iso huolellisuus.
+              </h2>
+              <p class="mt-4 max-w-xl text-lg text-muted">
+                AutoTuki Oy on merkkiriippumaton autokorjaamo Helsingin Roihupellossa. Teemme huollot, korjaukset, katsastuspalvelut ja rengastyöt kaikille automerkeille.
+              </p>
+              <blockquote class="mt-6 max-w-xl border-l-2 border-ink/15 pl-4 text-ink">
+                Työ tehdään vastuullisesti: ympäristöä, valmistajan ohjeita ja viranomaisten määräyksiä kunnioittaen.
+              </blockquote>
+            </header>
+            <dl class="reveal mt-8 divide-y divide-ink/10 rounded-2xl border border-ink/10">
+              <div class="grid gap-1 px-5 py-4 sm:grid-cols-[9rem_1fr] sm:items-baseline">
+                <dt class="text-sm text-muted">Sijainti</dt>
+                <dd class="font-semibold" data-visit-inline>Tulppatie 22, 00880 Helsinki</dd>
+              </div>
+              <div class="grid gap-1 px-5 py-4 sm:grid-cols-[9rem_1fr] sm:items-baseline">
+                <dt class="text-sm text-muted">Aukiolo</dt>
+                <dd class="font-semibold" data-hours-short>Ma–Pe 8:00–17:00 · La sopimuksen mukaan · Su suljettu</dd>
+              </div>
+              <div class="grid gap-1 px-5 py-4 sm:grid-cols-[9rem_1fr] sm:items-baseline">
+                <dt class="text-sm text-muted">Yritys</dt>
+                <dd class="font-semibold">AutoTuki Oy · Osakeyhtiö · Y-tunnus <span data-ytunnus>3662266-1</span></dd>
+              </div>
+            </dl>
+          </div>
+
+          <figure class="reveal overflow-hidden rounded-2xl shadow-soft">
+            <!-- VAIHDA: asiakkaan oma kuva -->
+            <img
+              src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?auto=format&fit=crop&w=1400&q=80"
+              alt="Mekaanikko huoltaa autoa konepellin alla"
+              class="aspect-[4/3] w-full object-cover"
+              width="1400"
+              height="1050"
+              loading="lazy"
+              decoding="async"
+            />
+          </figure>
+        </div>
+
+        <ul class="mx-auto mt-8 grid max-w-[1200px] gap-3 px-5 md:grid-cols-3">
+          <!-- VAHVISTA asiakkaalta -->
+          <li class="rounded-2xl bg-paper p-5">
+            <h3 class="font-display text-xl font-semibold">Varaosat</h3>
+            <p class="mt-2 text-muted">Alkuperäiset, vastaavat tai tarvikeosat.</p>
+          </li>
+          <!-- VAHVISTA asiakkaalta -->
+          <li class="rounded-2xl bg-paper p-5">
+            <h3 class="font-display text-xl font-semibold">Mukavuus</h3>
+            <p class="mt-2 text-muted">Hinaus ja katsastukseen vienti sovittaessa.</p>
+          </li>
+          <!-- VAHVISTA asiakkaalta -->
+          <li class="rounded-2xl bg-paper p-5">
+            <h3 class="font-display text-xl font-semibold">Maksutavat</h3>
+            <p class="mt-2 text-muted">Kortti, MobilePay, lasku.</p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="bg-ink py-20 text-white md:py-28" id="yhteys">
+        <div class="mx-auto grid max-w-[1200px] gap-10 px-5 lg:grid-cols-2">
+          <div>
+            <header class="reveal">
+              <p class="text-sm font-semibold uppercase tracking-[0.16em] text-signal">Yhteys</p>
+              <h2 class="mt-3 font-display text-[clamp(1.8rem,4vw,3.25rem)] font-semibold leading-tight tracking-tight">
+                Varaa aika.<br />Aloitetaan siitä.
+              </h2>
+              <p class="mt-4 max-w-md text-lg text-white/75">
+                Kerro auton merkki, malli ja tarvittava työ. Palaamme asiaan pian.
+              </p>
+            </header>
+
+            <address class="mt-8 grid gap-5 not-italic">
+              <p>
+                <span class="block text-sm text-white/55">Puhelin</span>
+                <a data-phone-href data-phone-text href="tel:+358400000000" class="mt-1 inline-block font-display text-2xl font-semibold text-white hover:text-signal">040 000 0000</a>
+                <a data-sms-href href="sms:+358400000000?body=Hei%20AutoTuki%2C%20tarvitsen%20apua%20auton%20kanssa." class="mt-3 inline-flex min-h-11 items-center rounded-full border border-white/25 px-4 text-sm font-semibold hover:bg-white/10">Lähetä tekstiviesti</a>
+              </p>
+              <p>
+                <span class="block text-sm text-white/55">Käyntiosoite</span>
+                <a data-maps class="mt-1 inline-block font-semibold leading-relaxed hover:text-signal" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&amp;query=Tulppatie%2022%2C%2000880%20Helsinki" data-visit-lines>Tulppatie 22<br />00880 Helsinki</a>
+              </p>
+              <p>
+                <span class="block text-sm text-white/55">Postiosoite</span>
+                <span class="mt-1 block font-semibold leading-relaxed" data-mail-lines>Taivaskero 4 B 34<br />01280 Vantaa</span>
+              </p>
+              <p>
+                <span class="block text-sm text-white/55">Sähköposti</span>
+                <a data-email-href data-email-text href="mailto:info@autotuki.fi" class="mt-1 inline-block font-semibold hover:text-signal">info@autotuki.fi</a>
+              </p>
+              <p>
+                <span class="block text-sm text-white/55">Aukioloajat</span>
+                <strong class="mt-1 block font-semibold leading-relaxed" data-hours-lines>Ma–Pe 8:00–17:00<br />La sopimuksen mukaan<br />Su suljettu</strong>
+              </p>
+            </address>
+          </div>
+
+          <form id="contact-form" class="reveal rounded-2xl bg-white p-5 text-ink shadow-soft sm:p-7" novalidate>
+            <p class="font-display text-2xl font-semibold">Lähetä viesti</p>
+            <p class="mt-2 text-sm text-muted">Lomake avaa sähköpostisovelluksesi. Viestiä ei tallenneta sivustolle.</p>
+            <p id="form-success" class="mt-4 hidden rounded-2xl bg-signal px-4 py-3 text-sm font-medium text-ink" role="status"></p>
+
+            <div class="mt-5 grid gap-4 sm:grid-cols-2">
+              <label class="block text-sm font-medium">
+                Nimi*
+                <input name="name" type="text" required autocomplete="name" class="mt-1 w-full rounded-xl border border-ink/15 bg-paper px-3 py-3 text-base outline-none focus:border-signal" />
+              </label>
+              <label class="block text-sm font-medium">
+                Puhelin*
+                <input name="phone" type="tel" required autocomplete="tel" inputmode="tel" minlength="5" class="mt-1 w-full rounded-xl border border-ink/15 bg-paper px-3 py-3 text-base outline-none focus:border-signal" />
+              </label>
+            </div>
+            <label class="mt-4 block text-sm font-medium">
+              Sähköposti
+              <input name="email" type="email" autocomplete="email" class="mt-1 w-full rounded-xl border border-ink/15 bg-paper px-3 py-3 text-base outline-none focus:border-signal" />
+            </label>
+            <div class="mt-4 grid gap-4 sm:grid-cols-2">
+              <label class="block text-sm font-medium">
+                Rekisterinumero
+                <input name="plate" type="text" maxlength="8" placeholder="ABC-123" autocapitalize="characters" class="mt-1 w-full rounded-xl border border-ink/15 bg-paper px-3 py-3 text-base outline-none focus:border-signal" />
+              </label>
+              <label class="block text-sm font-medium">
+                Toivottu päivä
+                <input name="date" type="date" class="mt-1 w-full rounded-xl border border-ink/15 bg-paper px-3 py-3 text-base outline-none focus:border-signal" />
+              </label>
+            </div>
+            <label class="mt-4 block text-sm font-medium">
+              Palvelu
+              <select name="service" class="mt-1 w-full rounded-xl border border-ink/15 bg-paper px-3 py-3 text-base outline-none focus:border-signal">
+                <option value="">Valitse palvelu</option>
+                <option value="Akku">Akku</option>
+                <option value="Hinauspalvelu">Hinauspalvelu</option>
+                <option value="Huolto">Huolto</option>
+                <option value="Ilmastointi">Ilmastointi</option>
+                <option value="Jakohihna">Jakohihna</option>
+                <option value="Etujarrut">Etujarrut</option>
+                <option value="Takajarrut">Takajarrut</option>
+                <option value="Jousitus ja iskunvaimentimet">Jousitus ja iskunvaimentimet</option>
+                <option value="Katsastustarkastus">Katsastustarkastus</option>
+                <option value="Katsastushuolto">Katsastushuolto</option>
+                <option value="Katsastuskorjaus">Katsastuskorjaus</option>
+                <option value="Kori- ja vauriokorjaus">Kori- ja vauriokorjaus</option>
+                <option value="Kytkin">Kytkin</option>
+                <option value="Laakerit ja akselisto">Laakerit ja akselisto</option>
+                <option value="Lisävarusteet">Lisävarusteet</option>
+                <option value="Lohkolämmitin">Lohkolämmitin</option>
+                <option value="Moottori">Moottori</option>
+                <option value="Muu työ">Muu työ</option>
+                <option value="Ohjaus">Ohjaus</option>
+                <option value="Öljynvaihto">Öljynvaihto</option>
+                <option value="Pakoputkisto">Pakoputkisto</option>
+                <option value="Renkaat">Renkaat</option>
+                <option value="Renkaiden vaihto">Renkaiden vaihto</option>
+                <option value="Ruostekorjaus">Ruostekorjaus</option>
+                <option value="Ruostesuojaus">Ruostesuojaus</option>
+                <option value="Sähkötyöt">Sähkötyöt</option>
+                <option value="Valot">Valot</option>
+                <option value="Vianhaku">Vianhaku</option>
+                <option value="Vikakoodien luku">Vikakoodien luku</option>
+                <option value="Muu">Muu</option>
+              </select>
+            </label>
+            <label class="mt-4 block text-sm font-medium">
+              Viesti*
+              <textarea name="message" rows="5" required placeholder="Auton merkki, malli ja tarvittava työ…" class="mt-1 w-full rounded-xl border border-ink/15 bg-paper px-3 py-3 text-base outline-none focus:border-signal"></textarea>
+            </label>
+            <button type="submit" class="mt-5 inline-flex min-h-12 w-full items-center justify-center rounded-full bg-signal px-6 font-semibold text-ink hover:bg-[#e09612] sm:w-auto">
+              Lähetä
+            </button>
+          </form>
+        </div>
+
+        <div class="mx-auto mt-10 max-w-[1200px] px-5">
+          <div class="overflow-hidden rounded-2xl bg-steel ring-1 ring-white/10">
+            <div class="flex flex-col gap-3 px-5 py-4 sm:flex-row sm:items-center sm:justify-between">
+              <div>
+                <p class="text-sm text-white/55">Sijainti kartalla</p>
+                <p class="font-semibold" data-visit-inline>Tulppatie 22, 00880 Helsinki</p>
+              </div>
+              <a data-maps class="inline-flex min-h-11 items-center text-sm font-semibold text-signal hover:text-white" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&amp;query=Tulppatie%2022%2C%2000880%20Helsinki">Avaa Google Mapsissa</a>
+            </div>
+            <div class="aspect-[16/7] min-h-64 bg-steel">
+              <!-- VAIHDA: kartta, jos käyntiosoite muuttuu. Koordinaatit: Tulppatie 22, 00880 Helsinki -->
+              <iframe
+                title="AutoTuki Oy kartalla — Tulppatie 22, Helsinki"
+                class="h-full w-full border-0"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=25.042%2C60.2085%2C25.058%2C60.2155&amp;layer=mapnik&amp;marker=60.2119695%2C25.0499976"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-[#0A1220] py-12 text-white">
+      <div class="mx-auto grid max-w-[1200px] gap-10 px-5 md:grid-cols-3">
+        <div>
+          <a href="#top" class="font-display text-2xl font-semibold"><span>Auto</span><span class="text-signal">Tuki</span></a>
+          <p class="mt-3 max-w-xs text-sm text-white/70">Merkkiriippumaton autokorjaamo Helsingin Roihupellossa.</p>
+        </div>
+        <div class="text-sm leading-relaxed">
+          <p class="font-semibold">Käyntiosoite</p>
+          <p class="text-white/75" data-visit-inline>Tulppatie 22, 00880 Helsinki</p>
+          <p class="mt-4 font-semibold">Postiosoite</p>
+          <p class="text-white/75" data-mail-inline>Taivaskero 4 B 34, 01280 Vantaa</p>
+        </div>
+        <div class="text-sm leading-relaxed">
+          <p><a data-phone-href data-phone-text href="tel:+358400000000" class="font-semibold hover:text-signal">040 000 0000</a></p>
+          <p class="mt-2"><a data-email-href data-email-text href="mailto:info@autotuki.fi" class="hover:text-signal">info@autotuki.fi</a></p>
+          <nav class="mt-4 flex flex-col gap-2" aria-label="Alatunniste">
+            <a class="hover:text-signal" href="#palvelut">Palvelut ja hinnasto</a>
+            <a class="hover:text-signal" href="#yhteys">Yhteys</a>
+            <button type="button" data-privacy class="text-left hover:text-signal">Tietosuojaseloste</button>
+            <a class="hover:text-signal" href="#top">Takaisin ylös</a>
+          </nav>
+        </div>
+      </div>
+      <div class="mx-auto mt-10 max-w-[1200px] px-5 text-sm text-white/55">
+        <p>© <span id="year">2026</span> AutoTuki Oy · Y-tunnus <span data-ytunnus>3662266-1</span></p>
+      </div>
+    </footer>
+
+    <!-- VAIHDA: tietosuojaseloste ennen julkaisua -->
+    <dialog id="tietosuoja" aria-labelledby="tietosuoja-otsikko">
+      <h2 id="tietosuoja-otsikko" class="font-display text-2xl font-semibold">Tietosuojaseloste</h2>
+      <p class="mt-4 text-muted">
+        Tietosuojaseloste täydennetään ennen julkaisua. Tämä sivu ei tallenna lomakkeen tietoja: lähetys avaa oman sähköpostisovelluksesi.
+      </p>
+      <form method="dialog" class="mt-6">
+        <button class="inline-flex min-h-11 items-center rounded-full bg-ink px-5 font-semibold text-white" type="submit">Sulje</button>
+      </form>
+    </dialog>
+
+    <div class="fixed inset-x-0 bottom-0 z-40 grid grid-cols-3 border-t border-white/10 bg-ink text-sm font-semibold text-white md:hidden" style="padding-bottom: env(safe-area-inset-bottom)" aria-label="Pikayhteystiedot">
+      <a data-phone-href href="tel:+358400000000" class="flex min-h-14 items-center justify-center hover:bg-white/10">Soita</a>
+      <a data-sms-href href="sms:+358400000000?body=Hei%20AutoTuki%2C%20tarvitsen%20apua%20auton%20kanssa." class="flex min-h-14 items-center justify-center border-x border-white/10 hover:bg-white/10">Tekstiviesti</a>
+      <a href="#yhteys" class="flex min-h-14 items-center justify-center bg-signal text-ink hover:bg-[#e09612]">Varaa aika</a>
+    </div>
+
+    <script>
+      // VAIHDA ennen julkaisua: puhelin, sähköposti, aukioloajat ja verkkotunnus.
+      const SITE = {
+        name: "AutoTuki Oy",
+        yTunnus: "3662266-1",
+        phoneDisplay: "040 000 0000",
+        phoneTel: "+358400000000",
+        email: "info@autotuki.fi",
+        street: "Tulppatie 22",
+        postal: "00880",
+        city: "Helsinki",
+        visitInline: "Tulppatie 22, 00880 Helsinki",
+        visitLines: ["Tulppatie 22", "00880 Helsinki"],
+        mailInline: "Taivaskero 4 B 34, 01280 Vantaa",
+        mailLines: ["Taivaskero 4 B 34", "01280 Vantaa"],
+        hoursShort: "Ma–Pe 8:00–17:00 · La sopimuksen mukaan · Su suljettu",
+        hoursLines: ["Ma–Pe 8:00–17:00", "La sopimuksen mukaan", "Su suljettu"],
+        url: "https://autotuki.fi/",
+        smsBody: "Hei AutoTuki, tarvitsen apua auton kanssa.",
+        mapsQuery: "Tulppatie 22, 00880 Helsinki",
+      };
+
+      const SERVICES = [
+        { name: "Akku", price: "Alk. 120 €", note: "", cat: "sahko" },
+        { name: "Hinauspalvelu", price: "Pyydä tarjous", note: "", cat: "muut" },
+        { name: "Huolto", price: "Alk. 149 €", note: "", cat: "huolto" },
+        { name: "Ilmastointi", price: "Alk. 89 €", note: "", cat: "huolto" },
+        { name: "Jakohihna", price: "Alk. 390 €", note: "", cat: "huolto" },
+        { name: "Etujarrut", price: "Pyydä tarjous", note: "", cat: "alusta" },
+        { name: "Takajarrut", price: "Pyydä tarjous", note: "", cat: "alusta" },
+        { name: "Jousitus ja iskunvaimentimet", price: "Alk. 220 €", note: "", cat: "alusta" },
+        { name: "Katsastustarkastus", price: "Alk. 60 €", note: "Ei sisällä katsastukseen vientiä", cat: "katsastus" },
+        { name: "Katsastushuolto", price: "Alk. 90 €", note: "Katsastukseen vienti ja tuonti 130 €", cat: "katsastus" },
+        { name: "Katsastuskorjaus", price: "Pyydä tarjous", note: "", cat: "katsastus" },
+        { name: "Kori- ja vauriokorjaus", price: "Pyydä tarjous", note: "", cat: "muut" },
+        { name: "Kytkin", price: "Alk. 650 €", note: "", cat: "huolto" },
+        { name: "Laakerit ja akselisto", price: "Alk. 190 €", note: "", cat: "alusta" },
+        { name: "Lisävarusteet", price: "Sopimuksen mukaan", note: "", cat: "muut" },
+        { name: "Lohkolämmitin", price: "Alk. 180 €", note: "", cat: "sahko" },
+        { name: "Moottori", price: "Pyydä tarjous", note: "", cat: "huolto" },
+        { name: "Muu työ", price: "Sopimuksen mukaan", note: "", cat: "muut" },
+        { name: "Ohjaus", price: "Alk. 150 €", note: "", cat: "alusta" },
+        { name: "Öljynvaihto", price: "Alk. 69 €", note: "", cat: "huolto" },
+        { name: "Pakoputkisto", price: "Alk. 120 €", note: "", cat: "alusta" },
+        { name: "Renkaat", price: "Alk. 25 € / kpl", note: "", cat: "renkaat" },
+        { name: "Renkaiden vaihto", price: "Alk. 35 €", note: "", cat: "renkaat" },
+        { name: "Ruostekorjaus", price: "Pyydä tarjous", note: "", cat: "muut" },
+        { name: "Ruostesuojaus", price: "Alk. 290 €", note: "", cat: "muut" },
+        { name: "Sähkötyöt", price: "Alk. 95 €", note: "", cat: "sahko" },
+        { name: "Valot", price: "Alk. 45 €", note: "", cat: "sahko" },
+        { name: "Vianhaku", price: "Alk. 79 €", note: "", cat: "sahko" },
+        { name: "Vikakoodien luku", price: "Alk. 39 €", note: "", cat: "sahko" },
+      ];
+
+      const CATEGORIES = [
+        ["huolto", "Huolto"],
+        ["alusta", "Jarrut ja alusta"],
+        ["katsastus", "Katsastus"],
+        ["renkaat", "Renkaat"],
+        ["sahko", "Sähkö ja diagnostiikka"],
+        ["muut", "Kori ja muut"],
+      ];
+
+      const BRANDS = [
+        "Toyota",
+        "Volkswagen",
+        "Skoda",
+        "Volvo",
+        "BMW",
+        "Mercedes-Benz",
+        "Audi",
+        "Ford",
+        "Opel",
+        "Peugeot",
+        "Citroën",
+        "Renault",
+        "Kia",
+        "Hyundai",
+        "Nissan",
+        "Mazda",
+        "Honda",
+        "Seat",
+        "Tesla",
+      ];
+
+      const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      const mobileQuery = window.matchMedia("(max-width: 767px)");
+      const form = document.getElementById("contact-form");
+      const servicesList = document.getElementById("services-list");
+      const servicesCount = document.getElementById("services-count");
+      const searchInput = document.getElementById("service-search");
+
+      function fold(value) {
+        return value
+          .toLocaleLowerCase("fi")
+          .normalize("NFD")
+          .replace(/[\u0300-\u036f]/g, "");
+      }
+
+      function isQuotePrice(price) {
+        return price === "Pyydä tarjous" || price === "Sopimuksen mukaan";
+      }
+
+      function fillLines(node, lines) {
+        node.replaceChildren();
+        lines.forEach((line, index) => {
+          if (index) node.append(document.createElement("br"));
+          node.append(document.createTextNode(line));
+        });
+      }
+
+      function applySite() {
+        const tel = `tel:${SITE.phoneTel}`;
+        const sms = `sms:${SITE.phoneTel}?body=${encodeURIComponent(SITE.smsBody)}`;
+        const mail = `mailto:${SITE.email}`;
+        const maps = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(SITE.mapsQuery)}`;
+
+        document.querySelectorAll("[data-phone-text]").forEach((node) => {
+          node.textContent = SITE.phoneDisplay;
+        });
+        document.querySelectorAll("[data-phone-href]").forEach((node) => {
+          node.href = tel;
+          if (!node.hasAttribute("data-phone-text") && !node.textContent.trim()) {
+            node.textContent = "Soita";
+          }
+          if (node.textContent.trim() === "Soita") {
+            node.setAttribute("aria-label", `Soita ${SITE.phoneDisplay}`);
+          }
+        });
+        document.querySelectorAll("[data-sms-href]").forEach((node) => {
+          node.href = sms;
+        });
+        document.querySelectorAll("[data-email-text]").forEach((node) => {
+          node.textContent = SITE.email;
+        });
+        document.querySelectorAll("[data-email-href]").forEach((node) => {
+          node.href = mail;
+        });
+        document.querySelectorAll("[data-visit-inline]").forEach((node) => {
+          node.textContent = SITE.visitInline;
+        });
+        document.querySelectorAll("[data-mail-inline]").forEach((node) => {
+          node.textContent = SITE.mailInline;
+        });
+        document.querySelectorAll("[data-visit-lines]").forEach((node) => fillLines(node, SITE.visitLines));
+        document.querySelectorAll("[data-mail-lines]").forEach((node) => fillLines(node, SITE.mailLines));
+        document.querySelectorAll("[data-hours-short]").forEach((node) => {
+          node.textContent = SITE.hoursShort;
+        });
+        document.querySelectorAll("[data-hours-lines]").forEach((node) => fillLines(node, SITE.hoursLines));
+        document.querySelectorAll("[data-ytunnus]").forEach((node) => {
+          node.textContent = SITE.yTunnus;
+        });
+        document.querySelectorAll("[data-maps]").forEach((node) => {
+          node.href = maps;
+        });
+
+        const canonical = document.querySelector('link[rel="canonical"]');
+        if (canonical) canonical.href = SITE.url;
+        const ogUrl = document.querySelector('meta[property="og:url"]');
+        if (ogUrl) ogUrl.content = SITE.url;
+        document.getElementById("year").textContent = String(new Date().getFullYear());
+
+        const select = form.elements.service;
+        if (select.options.length <= 1) {
+          SERVICES.forEach((service) => {
+            const option = document.createElement("option");
+            option.value = service.name;
+            option.textContent = service.name;
+            select.append(option);
+          });
+          const other = document.createElement("option");
+          other.value = "Muu";
+          other.textContent = "Muu";
+          select.append(other);
+        }
+
+        if (form.elements.date) {
+          const now = new Date();
+          const local = new Date(now.getTime() - now.getTimezoneOffset() * 60000);
+          form.elements.date.min = local.toISOString().slice(0, 10);
+        }
+      }
+
+      function injectSchema() {
+        const offers = SERVICES.map((service) => {
+          const offer = {
+            "@type": "Offer",
+            itemOffered: {
+              "@type": "Service",
+              name: service.name,
+            },
+            description: service.note ? `${service.price} — ${service.note}` : service.price,
+          };
+          const amount = service.price.match(/(\d+)/);
+          if (amount && service.price.startsWith("Alk.")) {
+            offer.price = amount[1];
+            offer.priceCurrency = "EUR";
+          }
+          if (service.note) offer.itemOffered.description = service.note;
+          return offer;
+        });
+
+        const schema = {
+          "@context": "https://schema.org",
+          "@type": "AutoRepair",
+          name: SITE.name,
+          legalName: SITE.name,
+          taxID: SITE.yTunnus,
+          url: SITE.url,
+          telephone: SITE.phoneTel,
+          email: SITE.email,
+          image: "https://images.unsplash.com/photo-1625047509248-ec889cbff17f?auto=format&fit=crop&w=1200&q=80",
+          description:
+            "Merkkiriippumaton autokorjaamo Helsingin Roihupellossa. Huollot, korjaukset, katsastuspalvelut ja renkaat.",
+          address: {
+            "@type": "PostalAddress",
+            streetAddress: SITE.street,
+            postalCode: SITE.postal,
+            addressLocality: SITE.city,
+            addressCountry: "FI",
+          },
+          geo: {
+            "@type": "GeoCoordinates",
+            latitude: 60.2119695,
+            longitude: 25.0499976,
+          },
+          openingHoursSpecification: [
+            {
+              "@type": "OpeningHoursSpecification",
+              dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+              opens: "08:00",
+              closes: "17:00",
+            },
+          ],
+          areaServed: { "@type": "City", name: "Helsinki" },
+          priceRange: "€€",
+          hasOfferCatalog: {
+            "@type": "OfferCatalog",
+            name: "Palvelut ja hinnasto",
+            itemListElement: offers,
+          },
+        };
+
+        let script = document.getElementById("schema-ld");
+        if (!script) {
+          script = document.createElement("script");
+          script.id = "schema-ld";
+          script.type = "application/ld+json";
+          document.head.append(script);
+        }
+        script.textContent = JSON.stringify(schema);
+      }
+
+      function prefill(label) {
+        const select = form.elements.service;
+        const match = [...select.options].some((option) => option.value === label);
+        select.value = match ? label : "Muu";
+        const message = form.elements.message;
+        const line = `Palvelu: ${label}`;
+        if (!message.value.includes(line)) {
+          message.value = message.value.trim() ? `${line}\n${message.value.trim()}\n` : `${line}\n`;
+        }
+        document.getElementById("form-success").hidden = true;
+        document.getElementById("yhteys").scrollIntoView({
+          behavior: reduceMotion ? "auto" : "smooth",
+          block: "start",
+        });
+        window.setTimeout(() => message.focus(), reduceMotion ? 0 : 350);
+      }
+
+      function matchingServices() {
+        const query = fold(searchInput.value.trim());
+        return SERVICES.filter((service) => {
+          const haystack = fold(`${service.name} ${service.note} ${service.price}`);
+          return !query || haystack.includes(query);
+        });
+      }
+
+      function renderServices() {
+        const query = searchInput.value.trim();
+        const matches = matchingServices();
+        servicesList.replaceChildren();
+
+        if (!matches.length) {
+          const empty = document.createElement("p");
+          empty.className = "rounded-2xl bg-paper px-5 py-8 text-muted md:col-span-2";
+          empty.textContent = `Ei palveluita haulla “${query}”.`;
+          servicesList.append(empty);
+        }
+
+        CATEGORIES.forEach(([id, label]) => {
+          const items = matches.filter((service) => service.cat === id);
+          if (!items.length) return;
+
+          const group = document.createElement("section");
+          group.className = "rounded-2xl bg-paper p-3 sm:p-4";
+
+          const heading = document.createElement("h3");
+          heading.className = "px-3 pt-2 font-display text-lg font-semibold";
+          heading.textContent = label;
+
+          const list = document.createElement("ul");
+          list.className = "mt-1 divide-y divide-ink/10";
+          items.forEach((service) => {
+            const item = document.createElement("li");
+            const button = document.createElement("button");
+            button.type = "button";
+            button.className =
+              "grid w-full grid-cols-[minmax(0,1fr)_auto] items-baseline gap-x-4 rounded-xl px-3 py-3 text-left hover:bg-white";
+            button.setAttribute("aria-label", `Varaa palvelu: ${service.name}, ${service.price}`);
+
+            const name = document.createElement("span");
+            name.className = "font-medium";
+            name.textContent = service.name;
+
+            const price = document.createElement("span");
+            price.className = isQuotePrice(service.price)
+              ? "text-sm font-medium text-muted"
+              : "font-semibold tabular-nums text-ink";
+            price.textContent = service.price;
+
+            button.append(name, price);
+            if (service.note) {
+              const note = document.createElement("span");
+              note.className = "col-span-2 mt-1 text-sm font-normal text-muted";
+              note.textContent = service.note;
+              button.append(note);
+            }
+            button.addEventListener("click", () => prefill(service.name));
+            item.append(button);
+            list.append(item);
+          });
+
+          group.append(heading, list);
+          servicesList.append(group);
+        });
+
+        const noun = matches.length === 1 ? "palvelu" : "palvelua";
+        servicesCount.textContent = `${matches.length} ${noun}`;
+      }
+
+      function renderBrands() {
+        const track = document.getElementById("brand-marquee");
+        track.replaceChildren();
+        const makeList = (hidden) => {
+          const list = document.createElement("ul");
+          list.className = "flex items-center";
+          if (hidden) list.setAttribute("aria-hidden", "true");
+          BRANDS.forEach((brand) => {
+            const item = document.createElement("li");
+            item.className = "px-5 font-display text-2xl font-semibold tracking-tight text-ink/80 sm:text-3xl";
+            item.textContent = brand;
+            list.append(item);
+          });
+          return list;
+        };
+        track.append(makeList(false), makeList(true));
+      }
+
+      function setupHeader() {
+        const header = document.getElementById("site-header");
+        const onScroll = () => header.classList.toggle("is-scrolled", window.scrollY > 12);
+        onScroll();
+        window.addEventListener("scroll", onScroll, { passive: true });
+
+        const menuButton = document.getElementById("menu-btn");
+        const mobileNav = document.getElementById("mobile-nav");
+        const openIcon = menuButton.querySelector(".menu-icon-open");
+        const closeIcon = menuButton.querySelector(".menu-icon-close");
+
+        const setMenu = (open) => {
+          mobileNav.classList.toggle("hidden", !open);
+          mobileNav.hidden = !open;
+          menuButton.setAttribute("aria-expanded", String(open));
+          menuButton.setAttribute("aria-label", open ? "Sulje valikko" : "Avaa valikko");
+          openIcon.classList.toggle("hidden", open);
+          closeIcon.classList.toggle("hidden", !open);
+          document.body.classList.toggle("overflow-hidden", open && mobileQuery.matches);
+        };
+
+        menuButton.addEventListener("click", () => {
+          setMenu(menuButton.getAttribute("aria-expanded") !== "true");
+        });
+        mobileNav.querySelectorAll("a").forEach((link) => {
+          link.addEventListener("click", () => setMenu(false));
+        });
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "Escape") setMenu(false);
+        });
+      }
+
+      function setupForm() {
+        form.addEventListener("submit", (event) => {
+          event.preventDefault();
+          if (!form.reportValidity()) return;
+          const data = new FormData(form);
+          const lines = [
+            `Nimi: ${data.get("name")}`,
+            `Puhelin: ${data.get("phone")}`,
+            `Sähköposti: ${data.get("email") || "–"}`,
+            `Rekisterinumero: ${data.get("plate") || "–"}`,
+            `Palvelu: ${data.get("service") || "–"}`,
+            `Toivottu päivä: ${data.get("date") || "–"}`,
+            "",
+            String(data.get("message") || ""),
+          ];
+          const href = `mailto:${SITE.email}?subject=${encodeURIComponent(`Ajanvaraus – ${SITE.name}`)}&body=${encodeURIComponent(lines.join("\n"))}`;
+          const success = document.getElementById("form-success");
+          success.hidden = false;
+          success.textContent =
+            "Kiitos. Sähköpostisovellus avattiin viestin lähettämistä varten. Jos viesti ei avautunut, soita tai lähetä tekstiviesti.";
+          window.location.href = href;
+        });
+      }
+
+      function setupReveal() {
+        const nodes = document.querySelectorAll(".reveal");
+        if (reduceMotion || !("IntersectionObserver" in window)) {
+          nodes.forEach((node) => node.classList.add("is-in"));
+          return;
+        }
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add("is-in");
+                observer.unobserve(entry.target);
+              }
+            });
+          },
+          { threshold: 0.14 }
+        );
+        nodes.forEach((node) => observer.observe(node));
+      }
+
+      applySite();
+      injectSchema();
+      renderServices();
+      renderBrands();
+      setupHeader();
+      setupForm();
+      setupReveal();
+
+      document.querySelectorAll("[data-privacy]").forEach((button) => {
+        button.addEventListener("click", () => document.getElementById("tietosuoja").showModal());
+      });
+
+      searchInput.addEventListener("input", () => {
+        renderServices();
+      });
+    </script>
+  </body>
+</html>
